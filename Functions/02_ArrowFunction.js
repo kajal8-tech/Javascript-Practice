@@ -6,3 +6,8 @@ const arrowSum=(a,b)=>{
 }
 arrowSum(2,4);
 
+//Multiplication of two numbers using arrow function
+const arrowMul=(a,b)=>{
+    console.log(a*b);
+}
+arrowMul(2,2);
