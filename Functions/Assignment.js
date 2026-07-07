@@ -1,7 +1,7 @@
 //Assignment One
 function countVowels(str) {
   let count = 0;
-  for (const char of str) {
+  for (let char of str) {
     if (
       char === "a" ||
       char === "e" ||
@@ -9,8 +9,27 @@ function countVowels(str) {
       char === "i" ||
       char === "u"
     ) {
+    count++;
+    }
+  }
+  return count;
+}
+console.log(countVowels("apnacollege"));
+
+//Assignment two
+const countvow = (str) => {
+  let count = 0;
+  for (const char of str) {
+    if (
+      char === "A" ||
+      char === "E" ||
+      char === "I" ||
+      char === "O" ||
+      char === "U"
+    ) {
       count++;
     }
   }
-  countVowels("apnacollege")
+  return count;
 }
+console.log(countvow("APNACOLLEGE"));
