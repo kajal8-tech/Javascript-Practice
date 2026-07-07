@@ -9,7 +9,7 @@ function countVowels(str) {
       char === "i" ||
       char === "u"
     ) {
-    count++;
+      count++;
     }
   }
   return count;
@@ -31,5 +31,14 @@ const countvow = (str) => {
     }
   }
   return count;
-}
+};
 console.log(countvow("APNACOLLEGE"));
+
+//Assignment Three
+//Print the square of eaach value in a given arry using the forEach loop
+
+let arr = [1, 2, 3, 4];
+
+arr.forEach(function printVal(val) {
+  console.log(val * val);
+});
