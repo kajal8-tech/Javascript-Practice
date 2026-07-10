@@ -18,11 +18,26 @@ document.getElementsByTagName("p")
 //Query Selectors
 //It allows us to use any CSS selector
 document.querySelector('p'); //Slect 1st p element
-document.querySelector("p"); //Slect all p element
+document.querySelectorAll("p"); //Slect all p element
 
 
 document.querySelector('#myId'); //Selects 1st element with id=myId
-document.querySelector("#myId"); //Selects all element with id=myId
+document.querySelectorAll("#myId"); //Selects all element with id=myId
 
 document.querySelector('.myClass'); //select 1at element with class = myClass
-document.querySelector(".myClass"); //select all element with class = myClass
+document.querySelectorAll(".myClass"); //select all element with class = myClass
+
+//innerText
+//Shows the visible text cointained in a node
+let para=document.querySelector("p");
+para.innerText=""
+
+//textContent
+//Shows all the full text
+let para=document.querySelector("p");
+para.textContent=""
+
+//inerHTML
+//Shows the full markup
+let para=document.querySelector("p");
+para.innerHTML=""
