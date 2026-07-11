@@ -41,3 +41,11 @@ para.textContent=""
 //Shows the full markup
 let para=document.querySelector("p");
 para.innerHTML=""
+
+//The getattribute() method returns the value of an element's attribute
+//element.getAttribute(name);
+let text=image.getAttribute("class");
+//The attribute'svalue null if the attribute doesnot exist
+
+let text=image.setAttribute('class','images')
+//It sets a new value to the attribute
