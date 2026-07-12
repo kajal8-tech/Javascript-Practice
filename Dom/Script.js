@@ -34,12 +34,12 @@ para.innerText=""
 
 //textContent
 //Shows all the full text
-let para=document.querySelector("p");
+para=document.querySelector("p");
 para.textContent=""
 
 //inerHTML
 //Shows the full markup
-let para=document.querySelector("p");
+para=document.querySelector("p");
 para.innerHTML=""
 
 //The getattribute() method returns the value of an element's attribute
@@ -47,7 +47,7 @@ para.innerHTML=""
 let text=image.getAttribute("class");
 //The attribute'svalue null if the attribute doesnot exist
 
-let text=image.setAttribute('class','images')
+text=image.setAttribute('class','images')
 //It sets a new value to the attribute
 
 classList.add( ) //To add new classes
@@ -55,3 +55,9 @@ classList.remove( ) //To remove classes
 classList.contain( ) //To check if the class is exist or not
 classList.toggle( ) //To toggle between add & remove
 
+//Adding elements in the page
+document.createElement( ) //To creat a new element
+appendChild() // To insert an element. It insert an element in the last as a child
+append() // It can add new element as a child form or can add in the same line
+Prepend() // It is as similar to append but it add elements in 1st
+insertAdjacent() //It can add element in a perticular place
