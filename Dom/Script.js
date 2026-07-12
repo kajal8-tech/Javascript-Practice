@@ -49,3 +49,9 @@ let text=image.getAttribute("class");
 
 let text=image.setAttribute('class','images')
 //It sets a new value to the attribute
+
+classList.add( ) //To add new classes
+classList.remove( ) //To remove classes
+classList.contain( ) //To check if the class is exist or not
+classList.toggle( ) //To toggle between add & remove
+
